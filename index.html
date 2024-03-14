@@ -21,289 +21,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://iwedding.info/favicon.ico" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <link href="./assets/libs.css" rel="stylesheet" />
-    <link href="./assets/calendar.css" rel="stylesheet" />
     <link href="./assets/style.css" rel="stylesheet" />
     <link href="./assets/fonts.css" rel="stylesheet" />
-    <style type="text/css">
-        .fancybox-margin {
-            margin-right: 17px;
-        }
-
-        @media (max-width: 799px) {
-            #menu-access {
-                bottom: 238px !important;
-            }
-        }
-    </style>
-</head>
-
-<body data-new-gr-c-s-check-loaded="14.1157.0" data-gr-ext-installed>
-    <div class="page-wrapper flower-fixed-body">
-        <div class="preloader" style="display: none">
-            <div class="middle">
-                <i class="fi flaticon-favorite-heart-button"></i>
-                <i class="fi flaticon-favorite-heart-button"></i>
-                <i class="fi flaticon-favorite-heart-button"></i>
-                <i class="fi flaticon-favorite-heart-button"></i>
-            </div>
-        </div>
-        <section class="hero-slider hero-style-1 parallax" id="home">
-            <div class="slide-main-text">
-                <div class="container">
-                    <div class="slide-title">
-                        <h2>
-                            <span>Will</span>
-                            <i class="bi bi-suit-heart-fill"></i>
-                            <span>Leia</span>
-                        </h2>
-                    </div>
-                    <div class="wedding-date">
-                        <span>29 Tháng 4 2024</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="couple-section section-padding parallax-2" id="couple">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                        <div class="section-title">
-                            <h2>Cô dâu &amp; Chú rể</h2>
-                            <p>
-                                Tình yêu là điều kiện trong đó hạnh phúc của
-                                người còn lại là
-                                niềm vui cho chính bạn.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-lg-12">
-                        <div class="couple-area">
-                            <div class="couple-row">
-                                <div class="img-holder">
-                                    <img src="./images/avatar-2.jpg" alt />
-                                </div>
-                                <div class="details" style="height: 450px">
-                                    <div class="inner">
-                                        <h2>Ngô Ngọc Linh</h2>
-                                        <div class="parent-infos">
-                                            <div class="parent-info">
-                                                <span class="parent-title">Con
-                                                    ông:</span>
-                                                <span class="parent-name">Ngô Đình Luyện</span>
-                                            </div>
-                                            <div class="parent-info">
-                                                <span class="parent-title">Con
-                                                    bà:</span>
-                                                <span class="parent-name">Nguyễn Bích Ngọc</span>
-                                            </div>
-                                        </div>
-                                        <p>Leia</p>
-                                        <ul class="social-links"></ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="couple-row last-row">
-                                <div class="details" style="height: 450px">
-                                    <div class="inner">
-                                        <h2>Lê Chí Dũng</h2>
-                                        <div class="parent-infos">
-                                            <div class="parent-info">
-                                                <span class="parent-title">Con
-                                                    ông:</span>
-                                                <span class="parent-name">Lê Thanh Hòa</span>
-                                            </div>
-
-                                            <div class="parent-info">
-                                                <span class="parent-title">Con
-                                                    bà:</span>
-                                                <span class="parent-name">Nguyễn Thị Kim Liên</span>
-                                            </div>
-                                        </div>
-                                        <p>Will</p>
-                                        <ul class="social-links"></ul>
-                                    </div>
-                                </div>
-                                <div class="img-holder">
-                                    <img src="./images/avatar-1.jpg" alt />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="event-section section-padding p-t-0 section-bg-color" id="events">
-            <div class="top-area parallax-3">
-                <h2>Sự Kiện Cưới</h2>
-                <p class>
-                    ...tình yêu không phải là nhìn chằm chằm vào đối phương,
-                    mà là cùng
-                    nhìn về 1 hướng...
-                </p>
-                <div class="wedding-date">
-                    <span>29 Tháng 4 2024</span>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="event-grids clearfix">
-                            <div class="grid">
-                                <h3>Tiệc cưới</h3>
-                                <div class="image-wrap">
-                                    <img src="./images/tiec-cuoi.png" alt />
-                                </div>
-                                <p><strong>10:30 28/04/2024</strong></p>
-                                <p style="height: 60px;">
-                                    Tầng 3, Tòa nhà Mipec, 229 Tây Sơn, Đống Đa, Hà Nội
-                                </p>
-                                <a class="see-location-btn" href="https://maps.app.goo.gl/4CXmkq8o7bxmVuEk8"
-                                    target="_blank">Xem bản đồ</a>
-                            </div>
-                            <div class="grid">
-                                <h3>Đón dâu - nhà cô dâu</h3>
-                                <div class="image-wrap">
-                                    <img src="./images/don-dau.jpg" alt />
-                                </div>
-                                <p><strong>07:30 29/04/2024</strong></p>
-                                <p style="height: 60px;">GV04, Hồ Thiên Nga, Vĩnh Yên, Vĩnh Phúc </p>
-                                <a class="see-location-btn" href="https://maps.app.goo.gl/dBq3N3vqttEFWhNn6"
-                                    target="_blank">Xem bản đồ</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="ablum-section section-padding section-bg-color" id="donate">
-            <div class="row">
-                <div class="col col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                    <div class="section-title">
-                        <h2>ALBUM ẢNH</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="./images/slider/slider-1.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/slider/slider-2.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/slider/slider-3.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./images/slider/slider-4.jpg" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="donate-section section-padding section-bg-color" id="donate">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                        <div class="section-title">
-                            <h2>Hộp mừng cưới</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div id="donate-modal">
-                            <div class="donate-modal-content">
-                                <div class="donate-modal-body">
-                                    <div class="donate-box">
-                                        <div class="donate-card">
-                                            <h3>Mừng cưới đến chú rể</h3>
-                                            <img class="qr-code-image" src="./images/qr-chude.jpg" />
-                                            <p>Ngân hàng:
-                                                <strong>Techcombank</strong>
-                                            </p>
-                                            <p>Tên tài khoản: <strong>Le Chi Dung</strong></p>
-                                            <p>Số tài khoản:
-                                                <strong>19036997205011</strong>
-                                            </p>
-                                            <p>Chi nhánh:
-                                                <strong></strong>
-                                            </p>
-                                        </div>
-                                        <div class="donate-card">
-                                            <h3>Mừng cưới đến cô dâu</h3>
-                                            <img class="qr-code-image" src="./images/qr-codau.jpg" />
-                                            <p>Ngân hàng:
-                                                <strong>Techcombank</strong>
-                                            </p>
-                                            <p>Tên tài khoản: <strong>Ngo Ngoc Linh</strong></p>
-                                            <p>Số tài khoản:
-                                                <strong>19036826467016</strong>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="site-footer footer-style-1">
-            <div class="inner">
-                <div class="couple-pic">
-                    <img src="./images/thank-you.jpg" alt="Lê Chí Dũng  &amp; Ngô Ngọc Linh Wedding site!" />
-                </div>
-                <h2>Thank you!</h2>
-            </div>
-        </footer>
-    </div>
-    <div id="donate-modal" class="donate-modal">
-        <div class="donate-modal-content">
-            <div class="donate-modal-header">
-                <span class="donate-modal-close">×</span>
-                <strong>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
-                        class="bi bi-coin" viewBox="0 0 16 16">
-                        <path
-                            d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z">
-                        </path>
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
-                        <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z">
-                        </path>
-                    </svg>
-                    <span>Hộp mừng cưới</span>
-                </strong>
-            </div>
-            <div class="donate-modal-body">
-                <div class="donate-box">
-                    <div class="donate-card">
-                        <h3>Mừng cưới đến chú rể</h3>
-                        <img class="qr-code-image" src="./assets/9943a9d2e49b60ad113be7dd9369ad5d.jpeg" />
-                        <p>Ngân hàng: <strong>Techcombank</strong></p>
-                        <p>Tên tài khoản: <strong>Huynh Ba
-                                Quyen</strong></p>
-                        <p>Số tài khoản: <strong>19033724242010</strong></p>
-                        <p>Chi nhánh: <strong></strong></p>
-                    </div>
-                    <div class="donate-card">
-                        <h3>Mừng cưới đến cô dâu</h3>
-                        <img class="qr-code-image" src="./assets/c945cab12fe138701ead6f3e65b813ab.jpeg" />
-                        <p>Ngân hàng: <strong>Techcombank</strong></p>
-                        <p>Tên tài khoản: <strong>Vu Dieu Linh</strong></p>
-                        <p>Số tài khoản: <strong>19027772094023</strong></p>
-                        <p>Chi nhánh: <strong></strong></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <style type="text/css">
         .mouse-scroll-on-mobile {
             width: 95px;
@@ -320,22 +42,13 @@
             -webkit-animation-play-state: paused;
         }
 
-        .mouse-scroll-on-mobile .mouse-scroll-on-mobile-text {
-            text-align: center;
-            bottom: 120px;
-            position: absolute;
-            font-size: 18px;
-            color: #dba567;
-            width: 100px;
-        }
-
         .mouse-scroll-on-mobile .mouse-scroll-on-mobile-left {
             position: absolute;
             height: 5px;
             width: 30px;
             background: #dba567;
             -webkit-transform: rotate(240deg);
-            bottom: 80px;
+            bottom: 20px;
             left: 42px;
             -webkit-border-radius: 4px;
             -webkit-transform-origin: 5px 50%;
@@ -348,7 +61,7 @@
             width: 30px;
             background: #dba567;
             -webkit-transform: rotate(-60deg);
-            bottom: 80px;
+            bottom: 20px;
             left: 46px;
             -webkit-border-radius: 4px;
             -webkit-transform-origin: 5px 50%;
@@ -377,8 +90,2077 @@
             }
         }
     </style>
+</head>
+
+<body>
+    <div class="page-wrapper flower-fixed-body">
+        <div class="preloader" style="display: none">
+            <div class="middle">
+                <i class="fi flaticon-favorite-heart-button"></i>
+                <i class="fi flaticon-favorite-heart-button"></i>
+                <i class="fi flaticon-favorite-heart-button"></i>
+                <i class="fi flaticon-favorite-heart-button"></i>
+            </div>
+        </div>
+        <section class="hero-slider hero-style-1 overlay-bg" id="home">
+            <div class="bg-1 parallax"></div>
+            <div class="slide-main-text">
+                <div class="container">
+                    <div class="slide-title">
+                        <h2>
+                            <span>Will</span>
+                            <i class="bi bi-suit-heart-fill"></i>
+                            <span>Leia</span>
+                        </h2>
+                    </div>
+                    <div class="wedding-date">
+                        <span>29 Tháng 4 2024</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="couple-section section-padding bg-2" id="couple">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                        <div class="section-title">
+                            <h2>Cô dâu &amp; Chú rể</h2>
+                            <p>
+                                Tình yêu là điều kiện trong đó hạnh phúc của
+                                người còn lại là
+                                niềm vui cho chính bạn.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-12">
+                        <div class="couple-area">
+                            <div class="couple-row">
+                                <div class="img-holder">
+                                    <img src="/images/avatar-2.jpeg" alt="avatar-1" loading="lazy" />
+                                </div>
+                                <div class="details">
+                                    <div class="inner">
+                                        <h2>Ngô Ngọc Linh</h2>
+                                        <div class="parent-infos">
+                                            <div class="parent-info">
+                                                <span class="parent-title">Con
+                                                    ông:</span>
+                                                <span class="parent-name">Ngô Đình Luyện</span>
+                                            </div>
+                                            <div class="parent-info">
+                                                <span class="parent-title">Con
+                                                    bà:</span>
+                                                <span class="parent-name">Nguyễn Bích Ngọc</span>
+                                            </div>
+                                        </div>
+                                        <p>Leia</p>
+                                        <ul class="social-links"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="couple-row">
+                                <div class="details">
+                                    <div class="inner">
+                                        <h2>Lê Chí Dũng</h2>
+                                        <div class="parent-infos">
+                                            <div class="parent-info">
+                                                <span class="parent-title">Con
+                                                    ông:</span>
+                                                <span class="parent-name">Lê Thanh Hòa</span>
+                                            </div>
+
+                                            <div class="parent-info">
+                                                <span class="parent-title">Con
+                                                    bà:</span>
+                                                <span class="parent-name">Nguyễn Thị Kim Liên</span>
+                                            </div>
+                                        </div>
+                                        <p>Will</p>
+                                        <ul class="social-links"></ul>
+                                    </div>
+                                </div>
+                                <div class="img-holder">
+                                    <img src="/images/avatar-1.jpeg" alt="avatar-2" loading="lazy" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="event-section overlay-bg" id="events">
+            <div class="parallax bg-3"></div>
+            <div class="top-area section-padding">
+                <h2>Sự Kiện Cưới</h2>
+                <p class>
+                    ...tình yêu không phải là nhìn chằm chằm vào đối phương,
+                    mà là cùng
+                    nhìn về 1 hướng...
+                </p>
+                <div class="wedding-date">
+                    <span>29 Tháng 4 2024</span>
+                </div>
+            </div>
+        </section>
+        <section class="event-section-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="event-grids">
+                            <div class="grid">
+                                <h3>Tiệc cưới nhà trai</h3>
+                                <div class="image-wrap">
+                                    <img src="./images/tiec-cuoi.png" alt="tiec-cuoi" loading="lazy" />
+                                </div>
+                                <p><strong>10:30 28/04/2024</strong></p>
+                                <p style="height: 70pxÏ;">
+                                    Tầng 3, Tòa nhà Mipec, 229 Tây Sơn, Đống Đa, Hà Nội
+                                </p>
+                                <a class="see-location-btn" href="https://maps.app.goo.gl/WZGGk9b4xtcfzCvF7"
+                                    target="_blank">Xem bản đồ</a>
+                            </div>
+                            <div class="grid">
+                                <h3>Tiệc cưới nhà gái</h3>
+                                <div class="image-wrap">
+                                    <img src="./images/tiec-cuoi.png" alt="tiec-cuoi" loading="lazy" />
+                                </div>
+                                <p><strong>16:30 28/04/2024</strong></p>
+                                <p style="height: 70pxÏ;">
+                                    Làn 2, Đ. Thân Nhân Trung, Bắc Giang
+                                </p>
+                                <a class="see-location-btn" href="https://maps.app.goo.gl/H7iYatkSoPezxica7"
+                                    target="_blank">Xem bản đồ</a>
+                            </div>
+                            <div class="grid">
+                                <h3>Đón dâu - nhà cô dâu</h3>
+                                <div class="image-wrap">
+                                    <img src="./images/don-dau.jpg" alt="tiec-cuoi" loading="lazy" />
+                                </div>
+                                <p><strong>07:30 29/04/2024</strong></p>
+                                <p style="height: 70pxÏ;">GV04, Hồ Thiên Nga, Vĩnh Yên, Vĩnh Phúc </p>
+                                <a class="see-location-btn" href="https://maps.app.goo.gl/eYo6HqUPHuiASf2f9"
+                                    target="_blank">Xem bản đồ</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ablum-section section-padding section-bg-color" id="donate">
+            <div class="section-title">
+                <h2>Ảnh Cưới Nè</h2>
+            </div>
+            <div class="row">
+                <div class="swiper carousel-image">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_1.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_2.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_3.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_4.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_5.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_6.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_7.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_8.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_9.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_10.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_11.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_12.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_13.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_14.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_15.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_16.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_17.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_18.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_19.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_20.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_21.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_22.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_23.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_24.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_25.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_26.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_27.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_28.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_29.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_30.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_31.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_32.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_33.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_34.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_35.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_36.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_37.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_38.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_39.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_40.jpg" alt="slider image" loading="lazy" />
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_41.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_42.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_43.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_44.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_45.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_46.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_47.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_48.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_49.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_50.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_51.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_52.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_53.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_54.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_55.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_56.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_57.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_58.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_59.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_60.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_61.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_62.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_63.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_64.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_65.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_66.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_67.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_68.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_69.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_70.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_71.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_72.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_73.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_74.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_75.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_76.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_77.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_78.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_79.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_80.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_81.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_82.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_83.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_84.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_85.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_86.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_87.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_88.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_89.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_90.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_91.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_92.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_93.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_94.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_95.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_96.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_97.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_98.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_99.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_100.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_101.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_102.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_103.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_104.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_105.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_106.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_107.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_108.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_109.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_110.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_111.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_112.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_113.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_114.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_115.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_116.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_117.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_118.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_119.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_120.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_121.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_122.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_123.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_124.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_125.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_126.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_127.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_128.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_129.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_130.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_131.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_132.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_133.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_134.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_135.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_136.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_137.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_138.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_139.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_140.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_141.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_142.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_143.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_144.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_145.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_146.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_147.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_148.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_149.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_150.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_151.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                            <img src="./images/slider/DL240330_152.jpg" alt="slider image" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="donate-section section-padding section-bg-color" id="donate">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                        <div class="section-title">
+                            <h2>Hộp mừng cưới</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div id="donate-modal">
+                            <div class="donate-modal-content">
+                                <div class="donate-modal-body">
+                                    <div class="donate-box">
+                                        <div class="donate-card">
+                                            <h3>Mừng cưới đến chú rể</h3>
+                                            <img class="qr-code-image" src="./images/qr-chude.jpg" loading="lazy" />
+                                            <p>Ngân hàng:
+                                                <strong>Techcombank</strong>
+                                            </p>
+                                            <p>Tên tài khoản: <strong>Le Chi Dung</strong></p>
+                                            <p>Số tài khoản:
+                                                <strong>19036997205011</strong>
+                                            </p>
+                                            <p>Chi nhánh:
+                                                <strong></strong>
+                                            </p>
+                                        </div>
+                                        <div class="donate-card">
+                                            <h3>Mừng cưới đến cô dâu</h3>
+                                            <img class="qr-code-image" src="./images/qr-codau.jpg" loading="lazy" />
+                                            <p>Ngân hàng:
+                                                <strong>Techcombank</strong>
+                                            </p>
+                                            <p>Tên tài khoản: <strong>Ngo Ngoc Linh</strong></p>
+                                            <p>Số tài khoản:
+                                                <strong>19036826467016</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="thumb-gallery-dialog">
+            <div class="thumb-gallery-dialog_close">
+                <i class="bi bi-x"></i>
+            </div>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper thumb-gallery">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_1.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_2.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_3.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_4.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_5.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_6.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_7.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_8.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_9.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_10.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_11.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_12.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_13.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_14.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_15.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_16.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_17.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_18.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_19.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_20.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_21.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_22.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_23.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_24.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_25.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_26.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_27.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_28.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_29.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_30.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_31.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_32.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_33.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_34.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_35.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_36.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_37.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_38.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_39.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_40.jpg" alt="slider image" loading="lazy" />
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_41.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_42.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_43.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_44.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_45.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_46.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_47.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_48.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_49.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_50.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_51.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_52.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_53.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_54.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_55.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_56.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_57.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_58.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_59.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_60.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_61.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_62.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_63.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_64.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_65.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_66.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_67.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_68.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_69.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_70.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_71.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_72.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_73.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_74.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_75.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_76.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_77.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_78.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_79.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_80.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_81.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_82.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_83.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_84.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_85.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_86.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_87.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_88.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_89.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_90.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_91.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_92.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_93.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_94.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_95.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_96.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_97.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_98.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_99.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_100.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_101.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_102.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_103.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_104.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_105.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_106.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_107.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_108.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_109.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_110.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_111.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_112.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_113.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_114.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_115.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_116.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_117.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_118.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_119.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_120.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_121.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_122.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_123.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_124.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_125.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_126.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_127.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_128.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_129.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_130.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_131.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_132.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_133.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_134.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_135.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_136.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_137.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_138.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_139.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_140.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_141.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_142.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_143.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_144.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_145.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_146.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_147.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_148.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_149.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_150.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_151.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_152.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper thumb-gallery-bottom">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_1.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_2.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_3.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_4.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_5.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_6.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_7.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_8.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_9.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_10.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_11.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_12.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_13.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_14.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_15.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_16.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_17.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_18.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_19.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_20.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_21.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_22.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_23.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_24.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_25.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_26.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_27.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_28.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_29.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_30.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_31.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_32.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_33.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_34.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_35.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_36.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_37.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_38.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_39.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_40.jpg" alt="slider image" loading="lazy" />
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_41.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_42.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_43.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_44.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_45.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_46.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_47.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_48.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_49.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_50.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_51.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_52.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_53.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_54.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_55.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_56.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_57.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_58.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_59.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_60.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_61.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_62.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_63.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_64.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_65.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_66.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_67.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_68.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_69.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_70.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_71.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_72.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_73.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_74.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_75.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_76.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_77.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_78.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_79.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_80.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_81.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_82.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_83.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_84.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_85.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_86.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_87.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_88.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_89.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_90.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_91.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_92.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_93.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_94.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_95.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_96.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_97.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_98.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_99.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_100.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_101.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_102.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_103.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_104.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_105.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_106.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_107.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_108.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_109.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_110.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_111.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_112.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_113.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_114.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_115.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_116.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_117.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_118.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_119.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_120.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_121.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_122.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_123.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_124.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_125.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_126.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_127.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_128.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_129.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_130.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_131.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_132.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_133.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_134.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_135.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_136.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_137.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_138.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_139.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_140.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_141.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_142.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_143.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_144.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_145.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_146.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_147.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_148.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_149.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_150.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_151.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        <img src="./images/slider/DL240330_152.jpg" alt="slider image" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer footer-style-1">
+            <div class="inner">
+                <div class="couple-pic">
+                    <img src="./images/thank-you.jpg" alt="Lê Chí Dũng  &amp; Ngô Ngọc Linh Wedding site!"
+                        loading="lazy" />
+                </div>
+                <h2>Thank you!</h2>
+            </div>
+        </footer>
+    </div>
     <div class="mouse-scroll-on-mobile">
-        <div class="mouse-scroll-on-mobile-text">Kéo xuống</div>
         <div class="mouse-scroll-on-mobile-left"></div>
         <div class="mouse-scroll-on-mobile-right"></div>
     </div>
@@ -518,7 +2300,7 @@
     <audio src="./assets/September.mp3" controls="controls" style="display: none" id="bg-music"></audio>
     <script src="./assets/script.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        new Swiper(".carousel-image", {
             effect: "coverflow",
             grabCursor: true,
             centeredSlides: true,
@@ -531,6 +2313,35 @@
                 slideShadows: true,
             },
         });
+
+        new Swiper(".thumb-gallery-bottom", {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            freeMode: true,
+            watchSlidesProgress: true,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 8,
+                },
+                768: {
+                    slidesPerView: 6,
+                }
+            }
+        });
+
+        new Swiper(".thumb-gallery", {
+            loop: true,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper2,
+            },
+        });
+    </script>
     </script>
 </body>
 
