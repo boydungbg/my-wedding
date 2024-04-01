@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "dancing_scriptregular";
+  src: url("/assets/dancingscript-regular.woff2") format("woff2"),
+    url("/assets/dancingscript-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "comfortaaregular";
+  src: url("/assets/comfortaa-regular.woff2") format("woff2"),
+    url("/assets/comfortaa-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

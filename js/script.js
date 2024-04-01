@@ -14,34 +14,48 @@ function playPause() {
   }
 }
 
-$(window).scroll(function (e) {
-  parallax();
-});
-parallax();
-
-function parallax() {
-  var scrollTop = $(window).scrollTop();
-  var screenHeight = $(window).height();
-  $(".parallax").each(function () {
-    let offseTop = $(this).offset().top;
-
-    if (scrollTop >= offseTop - screenHeight) {
-      let y = scrollTop - offseTop;
-      $(this).css("transform", `translate(0, ${Math.floor(y > 0 ? y : 0)}px)`);
-    }
-  });
-}
-
+let galleryBottom;
+let galleryThumb;
 $(".carousel-image .swiper-slide").each(function (index) {
   $(this).click(function () {
     $(".thumb-gallery-dialog").css("opacity", 1);
     $(".thumb-gallery-dialog").css("visibility", "visible");
     $("body").css("overflow", "hidden");
+    galleryBottom = new Swiper(".thumb-gallery-bottom", {
+      lazy: true,
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 3,
+      freeMode: true,
+      watchSlidesProgress: true,
+      breakpoints: {
+        1024: {
+          slidesPerView: 8,
+        },
+        768: {
+          slidesPerView: 6,
+        },
+      },
+    });
+    galleryThumb = new Swiper(".thumb-gallery", {
+      lazy: true,
+      loop: true,
+      spaceBetween: 10,
+      zoom: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: galleryBottom,
+      },
+    });
   });
 });
-
 $(".thumb-gallery-dialog_close").click(function () {
   $("body").css("overflow", "auto");
   $(".thumb-gallery-dialog").css("opacity", 0);
   $(".thumb-gallery-dialog").css("visibility", "hidden");
+  galleryBottom.destroy();
+  galleryThumb.destroy();
 });

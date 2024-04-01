@@ -372,8 +372,13 @@ img {
   text-align: center;
 }
 .parallax {
-  transition: all 0.1s;
-  transition-timing-function: linear;
+  background-attachment: fixed;
+}
+
+@media (max-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
 
 .bg-1 {
@@ -1620,6 +1625,7 @@ h2 {
   color: #fff;
   top: 0.5rem;
   right: 0.5rem;
+  cursor: pointer;
 }
 
 @media (max-width: 991px) {
