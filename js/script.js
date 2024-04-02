@@ -17,7 +17,9 @@ function playPause() {
 let galleryBottom;
 let galleryThumb;
 $(".carousel-image .swiper-slide").each(function (index) {
-  $(this).click(function () {
+  $(this).click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
     $(".thumb-gallery-dialog").css("opacity", 1);
     $(".thumb-gallery-dialog").css("visibility", "visible");
     $("body").css("overflow", "hidden");
@@ -31,12 +33,12 @@ $(".carousel-image .swiper-slide").each(function (index) {
       lazyPreloadPrevNext: 5,
       initialSlide: index,
       cssMode: true,
-      breakpoint: {
-        1024: {
-          slidesPerView: 8,
-        },
+      breakpoints: {
         768: {
           slidesPerView: 6,
+        },
+        1024: {
+          slidesPerView: 8,
         },
       },
     });
@@ -44,7 +46,9 @@ $(".carousel-image .swiper-slide").each(function (index) {
       lazy: true,
       loop: true,
       spaceBetween: 10,
-      zoom: true,
+      zoom: {
+        maxRatio: 5,
+      },
       cssMode: true,
       lazyPreloadPrevNext: 5,
       initialSlide: index,
@@ -58,7 +62,9 @@ $(".carousel-image .swiper-slide").each(function (index) {
     });
   });
 });
-$(".thumb-gallery-dialog_close").click(function () {
+$(".thumb-gallery-dialog_close").click(function (e) {
+  e.preventDefault();
+  e.stopPropagation();
   $("body").css("overflow", "auto");
   $(".thumb-gallery-dialog").css("opacity", 0);
   $(".thumb-gallery-dialog").css("visibility", "hidden");
