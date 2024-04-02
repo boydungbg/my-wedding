@@ -1105,7 +1105,7 @@ h2 {
 
 .event-section-info .event-grids .grid {
   background: #fff;
-  width: calc(50% - 30px);
+  width: calc(30% - 30px);
   padding: 30px;
   margin: 0 1rem 2rem;
   text-align: center;
