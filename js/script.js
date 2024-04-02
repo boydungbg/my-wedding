@@ -25,17 +25,29 @@ $(".carousel-image .swiper-slide").each(function (index) {
       lazy: true,
       loop: true,
       spaceBetween: 10,
-      slidesPerView: "auto",
+      slidesPerView: 4,
       freeMode: true,
       watchSlidesProgress: true,
       lazyPreloadPrevNext: 5,
+      initialSlide: index,
+      cssMode: true,
+      breakpoint: {
+        1024: {
+          slidesPerView: 8,
+        },
+        768: {
+          slidesPerView: 6,
+        },
+      },
     });
     galleryThumb = new Swiper(".thumb-gallery", {
       lazy: true,
       loop: true,
       spaceBetween: 10,
       zoom: true,
+      cssMode: true,
       lazyPreloadPrevNext: 5,
+      initialSlide: index,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
