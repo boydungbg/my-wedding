@@ -62,6 +62,7 @@ $(".carousel-image .swiper-slide").each(function (index) {
     });
   });
 });
+
 $(".thumb-gallery-dialog_close").click(function (e) {
   e.preventDefault();
   e.stopPropagation();
@@ -71,3 +72,14 @@ $(".thumb-gallery-dialog_close").click(function (e) {
   galleryBottom.destroy();
   galleryThumb.destroy();
 });
+
+window.onscroll = function (e) {
+  if (
+    $(window).scrollTop() + window.screen.height >
+    document.body.scrollHeight - 100
+  ) {
+    $(".mouse-scroll-on-mobile").css("display", "none");
+  } else {
+    $(".mouse-scroll-on-mobile").css("display", "block");
+  }
+};
