@@ -30,9 +30,8 @@ $(".carousel-image .swiper-slide").each(function (index) {
       slidesPerView: 4,
       freeMode: true,
       watchSlidesProgress: true,
-      lazyPreloadPrevNext: 5,
+      lazyPreloadPrevNext: 4,
       initialSlide: index,
-      cssMode: true,
       breakpoints: {
         768: {
           slidesPerView: 6,
@@ -43,14 +42,11 @@ $(".carousel-image .swiper-slide").each(function (index) {
       },
     });
     galleryThumb = new Swiper(".thumb-gallery", {
+      spaceBetween: 10,
       lazy: true,
       loop: true,
-      spaceBetween: 10,
-      zoom: {
-        maxRatio: 5,
-      },
       cssMode: true,
-      lazyPreloadPrevNext: 5,
+      lazyPreloadPrevNext: 3,
       initialSlide: index,
       navigation: {
         nextEl: ".swiper-button-next",
