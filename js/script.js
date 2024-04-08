@@ -24,6 +24,8 @@ $(".carousel-image .swiper-slide").each(function (index) {
       lazy: true,
       lazyPreloadPrevNext: 3,
       initialSlide: index,
+      lazyPreloadPrevNext: 4,
+      cssMode: true,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
